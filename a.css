@@ -23,6 +23,8 @@ main {
 
 .gallery {
   display: flex;
+  flex-direction: row;
+  justify-content: center; 
   flex-wrap: wrap;
   gap: 20px;
   /* width: 45%;
@@ -112,15 +114,15 @@ h3 {
 }
 
 .bg-yellow{
-  background:url(./image1.jpg) center;background-size: cover;
+  background:url(./image/palmiers.jpg) center;background-size: cover;
 }
 
 .bg-blue{
-  background:url(./image3.jpg) center;background-size: cover;
+  background:url(./image/rocher.jpg) center;background-size: cover;
 }
 
 .bg-red{
-  background:url(./image4.jpg) center;background-size: cover;
+  background:url(./image/lamer.jpg) center;background-size: cover;
 }
 
 #couleur{
@@ -234,6 +236,9 @@ h3 {
   animation: caption 12300ms infinite 7200ms;	
 }
   /* Calculate AUTOPLAY for CAPTION - END */
+
   
+
+
   
-  
+ 
